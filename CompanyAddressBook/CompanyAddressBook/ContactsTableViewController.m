@@ -10,12 +10,15 @@
 #import "Contact.h"
 #import "ContactDetailsViewController.h"
 #import "ContactMapViewController.h"
-
+#import "GSError.h"
+#import "ResultItem.h"
+#import "JSON.h"
 
 @interface ContactsTableViewController()
 
 @property (nonatomic, retain) NSMutableArray *sectionsArray;
 @property (nonatomic, retain) UILocalizedIndexedCollation *collation;
+
 
 - (void)configureSections;
 
@@ -51,7 +54,7 @@
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
+/*- (void)viewDidLoad
 {
     [super viewDidLoad];
 	
@@ -86,6 +89,40 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+}*/
+
+//JSON Parser
+
+-(NSArray*) searchWithQuery:(NSString *)q range:(NSRange) r error:(NSError **)e {
+	NSError* error = nil;
+    
+    
+	NSString* s = [NSString stringWithFormat:@"www.labo-mobile-dev.eu/project/export.html", q, r.location + 1, r.length];
+	NSURL* url = [NSURL URLWithString:[s stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
+	NSString* json = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+    
+	if (error && e) {
+		*e = error;
+		return nil;
+	}
+	else {
+		SBJsonParser* parser = [[SBJsonParser alloc] init];
+		id object = [parser objectWithString:json error:e];
+        
+		if ([object valueForKey:@"error"]) {
+			*e = [GSError errorWithJsonObject:[object valueForKey:@"error"]];
+			return nil;
+		}
+		else {
+			NSArray* items = [object valueForKey:@"items"];
+			NSMutableArray* returnedItems = [NSMutableArray array];
+			for (NSDictionary* item in items) {
+				[returnedItems addObject:[ResultItem itemWithJsonObject:item]];
+			}
+			return [NSArray arrayWithArray:returnedItems];
+		}
+	}
+    
 }
 
 #pragma mark - Table view data source
