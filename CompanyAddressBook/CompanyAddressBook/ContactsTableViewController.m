@@ -10,6 +10,7 @@
 #import "Contact.h"
 #import "ContactDetailsViewController.h"
 #import "ContactMapViewController.h"
+#import "CompanyAddressBookAppDelegate.h"
 
 
 @interface ContactsTableViewController()
@@ -55,7 +56,7 @@
 {
     [super viewDidLoad];
 	
-    self.title =@"Contacts";
+    /*self.title =@"Contacts";
     
     //we'll create an array of contacts, let's add some contacts.
     Contact *c1 = [[Contact alloc] initWithId:1 firstname:@"Florian" lastname:@"PETIT" email:@"129118@supinfo.com" category:@"Employee" adress:@"11, Rue de bassano, 75000, Paris, France" phonenumber:@"000000000"];
@@ -78,7 +79,7 @@
 
     
     showAllBtn = [[UIBarButtonItem alloc] initWithTitle:@"map" style:UIBarButtonSystemItemSearch target:self action:@selector(showMap:)];
-    self.navigationItem.rightBarButtonItem = showAllBtn;
+    self.navigationItem.rightBarButtonItem = showAllBtn;*/
 	
     [self configureSections];
 }
@@ -99,14 +100,14 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    // Return the number of rows in the section.
-    //we have multiple sections, return number of rows in a section
-    return [[sectionsArray objectAtIndex:section] count];
+    CompanyAddressBookAppDelegate *appDelegate = (CompanyAddressBookAppDelegate *)[[UIApplication sharedApplication] delegate];
+	return appDelegate.contacts.count;
+    //return [[sectionsArray objectAtIndex:section] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"myCustomContactTableViewCell";
+    /*static NSString *CellIdentifier = @"myCustomContactTableViewCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -126,7 +127,21 @@
 	label = (UILabel *)[cell viewWithTag:3];
 	label.text = [c1 category];
 	
-    return cell;
+    return cell;*/
+	
+	static NSString *CellIdentifier = @"Cell";
+	
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+    }
+	
+    // Set up the cell
+    CompanyAddressBookAppDelegate *appDelegate = (CompanyAddressBookAppDelegate *)[[UIApplication sharedApplication] delegate];
+	Contact *contact = (Contact *)[appDelegate.contacts objectAtIndex:indexPath.row];
+	
+	[cell setText:contact.firstName];
+	return cell;
 }
 
 /*
