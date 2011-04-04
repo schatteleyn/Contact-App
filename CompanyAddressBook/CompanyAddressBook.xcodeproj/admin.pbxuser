@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	0336D10B1344DE53003CBB9F /* JSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2070, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1135, 1622}";
+		};
+	};
+	0336D10C1344DE53003CBB9F /* NSObject+SBJSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 702}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{419, 1724}";
+		};
+	};
+	0336D1111344DE53003CBB9F /* SBJsonBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1027}}";
+			sepNavSelRange = "{2014, 0}";
+			sepNavVisRange = "{822, 1522}";
+		};
+	};
+	0336D1121344DE53003CBB9F /* SBJsonParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1027}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1891}";
+		};
+	};
+	0336D1141344DE53003CBB9F /* SBJsonWriter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1547}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1840}";
+		};
+	};
+	841FCD111349E28E00809DFA /* CompanyAddressBook */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CompanyAddressBook;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	841FCD231349E2B400809DFA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	841FCD241349E2B400809DFA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 701}";
+		};
+	};
+	A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1678, 3042}}";
+			sepNavSelRange = "{2022, 0}";
+			sepNavVisRange = "{844, 1828}";
+		};
+	};
+	A0364ED5131880FE0010B398 /* Contact.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1098}";
+		};
+	};
+	A0364ED6131880FE0010B398 /* Contact.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{303, 1430}";
+		};
+	};
+	A06DD38913187B430068DEB4 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 841FCD111349E28E00809DFA /* CompanyAddressBook */;
+		activeTarget = A06DD39113187B430068DEB4 /* CompanyAddressBook */;
+		addToTargets = (
+			A06DD39113187B430068DEB4 /* CompanyAddressBook */,
+		);
+		codeSenseManager = 841FCD241349E2B400809DFA /* Code sense */;
+		executables = (
+			841FCD111349E28E00809DFA /* CompanyAddressBook */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 323641117;
+			PBXWorkspaceStateSaveDate = 323641117;
+		};
+		sourceControlManager = 841FCD231349E2B400809DFA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A06DD39113187B430068DEB4 /* CompanyAddressBook */ = {
+		activeExec = 0;
+		executables = (
+			841FCD111349E28E00809DFA /* CompanyAddressBook */,
+		);
+	};
+	A06DD3A213187B430068DEB4 /* CompanyAddressBook-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	A06DD3A513187B430068DEB4 /* CompanyAddressBookAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 488}";
+		};
+	};
+	A06DD3A613187B430068DEB4 /* CompanyAddressBookAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 949}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1611}";
+		};
+	};
+	A0EA802E131ABBAB001C7EAF /* ContactMapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {989, 560}}";
+			sepNavSelRange = "{376, 0}";
+			sepNavVisRange = "{0, 480}";
+		};
+	};
+	A0EA802F131ABBAB001C7EAF /* ContactMapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1734, 1209}}";
+			sepNavSelRange = "{1506, 0}";
+			sepNavVisRange = "{0, 794}";
+		};
+	};
+	A0F1CF9F13193676002A372A /* ContactDetailsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 817}";
+		};
+	};
+	A0F1CFA013193676002A372A /* ContactDetailsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1699, 1898}}";
+			sepNavSelRange = "{505, 0}";
+			sepNavVisRange = "{0, 1152}";
+		};
+	};
+}
