@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>ContactDetailsViewController.nib</key>
+		<data>
+		n7SHb4X327kYo3iXDX/sNtBEsXM=
+		</data>
+		<key>ContactMapViewController.nib</key>
+		<data>
+		fPjnN2zzbkiefeKb2IRNID+bTKs=
+		</data>
+		<key>ContactTableViewCell.nib</key>
+		<data>
+		i0PNZgH6VFcUKveMZRwAbANQ30A=
+		</data>
+		<key>ContactsTableViewController.nib</key>
+		<data>
+		UHIqxQ9yMPspnEQTnqRqFC+lqys=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		tV1RU+PiO3rEx93HtNb6H5NM0Gk=
+		</data>
+		<key>en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>en.lproj/MainWindow.nib</key>
+		<data>
+		X/QDH5J+U09WZeLrrntVIWmdXg0=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

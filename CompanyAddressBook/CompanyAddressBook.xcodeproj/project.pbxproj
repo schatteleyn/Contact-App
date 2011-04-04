@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0336D1161344DE53003CBB9F /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D10D1344DE53003CBB9F /* NSObject+SBJSON.m */; };
+		0336D1171344DE53003CBB9F /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D10F1344DE53003CBB9F /* NSString+SBJSON.m */; };
+		0336D1181344DE53003CBB9F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1111344DE53003CBB9F /* SBJsonBase.m */; };
+		0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1131344DE53003CBB9F /* SBJsonParser.m */; };
+		0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1151344DE53003CBB9F /* SBJsonWriter.m */; };
+		A010615A131A59100015E7F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106158131A59100015E7F7 /* MainWindow.xib */; };
+		A0106163131A5E090015E7F7 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */; };
+		A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */; };
+		A0364ED7131880FE0010B398 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A0364ED6131880FE0010B398 /* Contact.m */; };
+		A06DD39713187B430068DEB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06DD39613187B430068DEB4 /* UIKit.framework */; };
+		A06DD39913187B430068DEB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06DD39813187B430068DEB4 /* Foundation.framework */; };
+		A06DD39B13187B430068DEB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06DD39A13187B430068DEB4 /* CoreGraphics.framework */; };
+		A06DD3A113187B430068DEB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A06DD39F13187B430068DEB4 /* InfoPlist.strings */; };
+		A06DD3A413187B430068DEB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A06DD3A313187B430068DEB4 /* main.m */; };
+		A06DD3A713187B430068DEB4 /* CompanyAddressBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A06DD3A613187B430068DEB4 /* CompanyAddressBookAppDelegate.m */; };
+		A08FA8B31319683200DF313F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08FA8B21319683200DF313F /* MessageUI.framework */; };
+		A09B4D30131ADC0A00ECAA9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09B4D2F131ADC0A00ECAA9F /* CoreLocation.framework */; };
+		A0D8F9E9131AA4C000873DA4 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D8F9E8131AA4C000873DA4 /* ContactTableViewCell.xib */; };
+		A0EA8031131ABBAB001C7EAF /* ContactMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA802F131ABBAB001C7EAF /* ContactMapViewController.m */; };
+		A0EA8032131ABBAB001C7EAF /* ContactMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EA8030131ABBAB001C7EAF /* ContactMapViewController.xib */; };
+		A0EA8035131ABC37001C7EAF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0EA8034131ABC37001C7EAF /* MapKit.framework */; };
+		A0F1CFA213193676002A372A /* ContactDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F1CFA013193676002A372A /* ContactDetailsViewController.m */; };
+		A0F1CFA313193676002A372A /* ContactDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0F1CFA113193676002A372A /* ContactDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0336D10B1344DE53003CBB9F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0336D10C1344DE53003CBB9F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		0336D10D1344DE53003CBB9F /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		0336D10E1344DE53003CBB9F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		0336D10F1344DE53003CBB9F /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		0336D1101344DE53003CBB9F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		0336D1111344DE53003CBB9F /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		0336D1121344DE53003CBB9F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		0336D1131344DE53003CBB9F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		0336D1141344DE53003CBB9F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		0336D1151344DE53003CBB9F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		A0106159131A59100015E7F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsTableViewController.xib; sourceTree = "<group>"; };
+		A0364ED5131880FE0010B398 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A0364ED6131880FE0010B398 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A06DD39213187B430068DEB4 /* CompanyAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06DD39613187B430068DEB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A06DD39813187B430068DEB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A06DD39A13187B430068DEB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A06DD39E13187B430068DEB4 /* CompanyAddressBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompanyAddressBook-Info.plist"; sourceTree = "<group>"; };
+		A06DD3A013187B430068DEB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A06DD3A213187B430068DEB4 /* CompanyAddressBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompanyAddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		A06DD3A313187B430068DEB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A06DD3A513187B430068DEB4 /* CompanyAddressBookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyAddressBookAppDelegate.h; sourceTree = "<group>"; };
+		A06DD3A613187B430068DEB4 /* CompanyAddressBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyAddressBookAppDelegate.m; sourceTree = "<group>"; };
+		A08FA8B21319683200DF313F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A09B4D2F131ADC0A00ECAA9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A0D8F9E8131AA4C000873DA4 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		A0EA802E131ABBAB001C7EAF /* ContactMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactMapViewController.h; sourceTree = "<group>"; };
+		A0EA802F131ABBAB001C7EAF /* ContactMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactMapViewController.m; sourceTree = "<group>"; };
+		A0EA8030131ABBAB001C7EAF /* ContactMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactMapViewController.xib; sourceTree = "<group>"; };
+		A0EA8034131ABC37001C7EAF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A0F1CF9F13193676002A372A /* ContactDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsViewController.h; sourceTree = "<group>"; };
+		A0F1CFA013193676002A372A /* ContactDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsViewController.m; sourceTree = "<group>"; };
+		A0F1CFA113193676002A372A /* ContactDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06DD38F13187B430068DEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09B4D30131ADC0A00ECAA9F /* CoreLocation.framework in Frameworks */,
+				A0EA8035131ABC37001C7EAF /* MapKit.framework in Frameworks */,
+				A06DD39713187B430068DEB4 /* UIKit.framework in Frameworks */,
+				A06DD39913187B430068DEB4 /* Foundation.framework in Frameworks */,
+				A06DD39B13187B430068DEB4 /* CoreGraphics.framework in Frameworks */,
+				A08FA8B31319683200DF313F /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0336D0D11344DB4C003CBB9F /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0336D10B1344DE53003CBB9F /* JSON.h */,
+				0336D10C1344DE53003CBB9F /* NSObject+SBJSON.h */,
+				0336D10D1344DE53003CBB9F /* NSObject+SBJSON.m */,
+				0336D10E1344DE53003CBB9F /* NSString+SBJSON.h */,
+				0336D10F1344DE53003CBB9F /* NSString+SBJSON.m */,
+				0336D1101344DE53003CBB9F /* SBJsonBase.h */,
+				0336D1111344DE53003CBB9F /* SBJsonBase.m */,
+				0336D1121344DE53003CBB9F /* SBJsonParser.h */,
+				0336D1131344DE53003CBB9F /* SBJsonParser.m */,
+				0336D1141344DE53003CBB9F /* SBJsonWriter.h */,
+				0336D1151344DE53003CBB9F /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		4E9277A61349BE0E00786E45 /* Contact Map View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0EA802E131ABBAB001C7EAF /* ContactMapViewController.h */,
+				A0EA802F131ABBAB001C7EAF /* ContactMapViewController.m */,
+				A0EA8030131ABBAB001C7EAF /* ContactMapViewController.xib */,
+			);
+			name = "Contact Map View Controller";
+			sourceTree = "<group>";
+		};
+		4E9277A81349BE4000786E45 /* Contact Details View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1CF9F13193676002A372A /* ContactDetailsViewController.h */,
+				A0F1CFA013193676002A372A /* ContactDetailsViewController.m */,
+				A0F1CFA113193676002A372A /* ContactDetailsViewController.xib */,
+			);
+			name = "Contact Details View Controller";
+			sourceTree = "<group>";
+		};
+		A06DD38713187B430068DEB4 = {
+			isa = PBXGroup;
+			children = (
+				A06DD39C13187B430068DEB4 /* CompanyAddressBook */,
+				A06DD39513187B430068DEB4 /* Frameworks */,
+				A06DD39313187B430068DEB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A06DD39313187B430068DEB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A06DD39213187B430068DEB4 /* CompanyAddressBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06DD39513187B430068DEB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A09B4D2F131ADC0A00ECAA9F /* CoreLocation.framework */,
+				A0EA8034131ABC37001C7EAF /* MapKit.framework */,
+				A08FA8B21319683200DF313F /* MessageUI.framework */,
+				A06DD39613187B430068DEB4 /* UIKit.framework */,
+				A06DD39813187B430068DEB4 /* Foundation.framework */,
+				A06DD39A13187B430068DEB4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A06DD39C13187B430068DEB4 /* CompanyAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				0336D0D11344DB4C003CBB9F /* SBJSON */,
+				4E9277A81349BE4000786E45 /* Contact Details View Controller */,
+				4E9277A61349BE0E00786E45 /* Contact Map View Controller */,
+				A07553ED131AA04E00629AF6 /* DataClass */,
+				A07553EF131AA05E00629AF6 /* Contacts Table View Controllers */,
+				A06DD3A513187B430068DEB4 /* CompanyAddressBookAppDelegate.h */,
+				A06DD3A613187B430068DEB4 /* CompanyAddressBookAppDelegate.m */,
+				A0106158131A59100015E7F7 /* MainWindow.xib */,
+				A0D8F9E8131AA4C000873DA4 /* ContactTableViewCell.xib */,
+				A06DD39D13187B430068DEB4 /* Supporting Files */,
+			);
+			path = CompanyAddressBook;
+			sourceTree = "<group>";
+		};
+		A06DD39D13187B430068DEB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A06DD39E13187B430068DEB4 /* CompanyAddressBook-Info.plist */,
+				A06DD39F13187B430068DEB4 /* InfoPlist.strings */,
+				A06DD3A213187B430068DEB4 /* CompanyAddressBook-Prefix.pch */,
+				A06DD3A313187B430068DEB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A07553ED131AA04E00629AF6 /* DataClass */ = {
+			isa = PBXGroup;
+			children = (
+				A0364ED5131880FE0010B398 /* Contact.h */,
+				A0364ED6131880FE0010B398 /* Contact.m */,
+			);
+			name = DataClass;
+			sourceTree = "<group>";
+		};
+		A07553EF131AA05E00629AF6 /* Contacts Table View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0106160131A5E070015E7F7 /* ContactsTableViewController.h */,
+				A0106161131A5E070015E7F7 /* ContactsTableViewController.m */,
+				A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */,
+			);
+			name = "Contacts Table View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A06DD39113187B430068DEB4 /* CompanyAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06DD3AD13187B430068DEB4 /* Build configuration list for PBXNativeTarget "CompanyAddressBook" */;
+			buildPhases = (
+				A06DD38E13187B430068DEB4 /* Sources */,
+				A06DD38F13187B430068DEB4 /* Frameworks */,
+				A06DD39013187B430068DEB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompanyAddressBook;
+			productName = CompanyAddressBook;
+			productReference = A06DD39213187B430068DEB4 /* CompanyAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A06DD38913187B430068DEB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Supinfo;
+			};
+			buildConfigurationList = A06DD38C13187B430068DEB4 /* Build configuration list for PBXProject "CompanyAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A06DD38713187B430068DEB4;
+			productRefGroup = A06DD39313187B430068DEB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06DD39113187B430068DEB4 /* CompanyAddressBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A06DD39013187B430068DEB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06DD3A113187B430068DEB4 /* InfoPlist.strings in Resources */,
+				A0F1CFA313193676002A372A /* ContactDetailsViewController.xib in Resources */,
+				A010615A131A59100015E7F7 /* MainWindow.xib in Resources */,
+				A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */,
+				A0D8F9E9131AA4C000873DA4 /* ContactTableViewCell.xib in Resources */,
+				A0EA8032131ABBAB001C7EAF /* ContactMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A06DD38E13187B430068DEB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06DD3A413187B430068DEB4 /* main.m in Sources */,
+				A06DD3A713187B430068DEB4 /* CompanyAddressBookAppDelegate.m in Sources */,
+				A0364ED7131880FE0010B398 /* Contact.m in Sources */,
+				A0F1CFA213193676002A372A /* ContactDetailsViewController.m in Sources */,
+				A0106163131A5E090015E7F7 /* ContactsTableViewController.m in Sources */,
+				A0EA8031131ABBAB001C7EAF /* ContactMapViewController.m in Sources */,
+				0336D1161344DE53003CBB9F /* NSObject+SBJSON.m in Sources */,
+				0336D1171344DE53003CBB9F /* NSString+SBJSON.m in Sources */,
+				0336D1181344DE53003CBB9F /* SBJsonBase.m in Sources */,
+				0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */,
+				0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0106158131A59100015E7F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0106159131A59100015E7F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A06DD39F13187B430068DEB4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A06DD3A013187B430068DEB4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A06DD3AB13187B430068DEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphonesimulator3.1.3;
+			};
+			name = Debug;
+		};
+		A06DD3AC13187B430068DEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphonesimulator3.1.3;
+			};
+			name = Release;
+		};
+		A06DD3AE13187B430068DEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompanyAddressBook/CompanyAddressBook-Prefix.pch";
+				INFOPLIST_FILE = "CompanyAddressBook/CompanyAddressBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A06DD3AF13187B430068DEB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompanyAddressBook/CompanyAddressBook-Prefix.pch";
+				INFOPLIST_FILE = "CompanyAddressBook/CompanyAddressBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A06DD38C13187B430068DEB4 /* Build configuration list for PBXProject "CompanyAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06DD3AB13187B430068DEB4 /* Debug */,
+				A06DD3AC13187B430068DEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06DD3AD13187B430068DEB4 /* Build configuration list for PBXNativeTarget "CompanyAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06DD3AE13187B430068DEB4 /* Debug */,
+				A06DD3AF13187B430068DEB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A06DD38913187B430068DEB4 /* Project object */;
+}

@@ -1,0 +1,958 @@
+TCompanyAddressBook
+v7
+r0
+t323283406.924704
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/Info.plist CompanyAddressBook/CompanyAddressBook-Info.plist
+cProcessPCH /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch.gch CompanyAddressBook/CompanyAddressBook-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch.gch CompanyAddressBook/CompanyAddressBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/main.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBookAppDelegate.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/Contact.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactDetailsViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactsTableViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactMapViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSString+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonBase.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonParser.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonWriter.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/main.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook normal armv6
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBookAppDelegate.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/Contact.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactDetailsViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactsTableViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactMapViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSString+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonBase.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonParser.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonWriter.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook normal armv7
+cCreateUniversalBinary /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook normal "armv6 armv7"
+cGenerateDSYMFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app.dSYM /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook
+cCopyStringsFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/InfoPlist.strings CompanyAddressBook/en.lproj/InfoPlist.strings
+cCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib
+cCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib
+cCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib
+cCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib
+cCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib
+cProcessProductPackaging "/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision" /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision
+cTouch /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent
+cCodeSign /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004CC11D1700000000000000CD
+t1287724311
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004CC11D2E0000000000112F80
+t1287724334
+s1126272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch
+c000000004D6843C40000000000000156
+t1298678724
+s342
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.h
+c000000004D94A35600000000000001E8
+t1301586774
+s488
+i<UIKit/UIKit.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m
+c000000004D946FA00000000000000941
+t1301573536
+s2369
+i"CompanyAddressBookAppDelegate.h"
+i"Contact.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.h
+c000000004D945990000000000000044A
+t1301567888
+s1098
+i<Foundation/Foundation.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m
+c000000004D945A4400000000000006C5
+t1301568068
+s1733
+i"Contact.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.h
+c000000004D946B600000000000000331
+t1301572448
+s817
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m
+c000000004D94A43000000000000012EF
+t1301586992
+s4847
+i"ContactDetailsViewController.h"
+i"ContactMapViewController.h"
+i"Contact.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib
+c000000004D946D8A0000000000007A53
+t1301573002
+s31315
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.h
+c000000004D94A33000000000000001E0
+t1301586736
+s480
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m
+c000000004D94A47200000000000008BF
+t1301587058
+s2239
+i<CoreLocation/CoreLocation.h>
+i"ContactMapViewController.h"
+i"Contact.h"
+i"JSON.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib
+c000000004D6A8CAA0000000000002108
+t1298828458
+s8456
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib
+c000000004D6A75E60000000000003162
+t1298822630
+s12642
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.h
+c000000004D94738000000000000002A9
+t1301574528
+s681
+i<UIKit/UIKit.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m
+c000000004D947A700000000000001EB2
+t1301576304
+s7858
+i"ContactsTableViewController.h"
+i"Contact.h"
+i"ContactDetailsViewController.h"
+i"ContactMapViewController.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib
+c000000004D6B41080000000000002489
+t1298874632
+s9353
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/JSON.h
+c000000004D2B834C0000000000000AC5
+t1294697292
+s2757
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.h
+c000000004D2B834C000000000000085F
+t1294697292
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m
+c000000004D2B834C000000000000077D
+t1294697292
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.h
+c000000004D2B834C00000000000007F0
+t1294697292
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m
+c000000004D2B834C000000000000075D
+t1294697292
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.h
+c000000004D2B834C0000000000000B82
+t1294697292
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m
+c000000004D2B834C0000000000000AC1
+t1294697292
+s2753
+i"SBJsonBase.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.h
+c000000004D2B834C0000000000000C8F
+t1294697292
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m
+c000000004D2B834C0000000000003B7A
+t1294697292
+s15226
+i"SBJsonParser.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.h
+c000000004D2B834C00000000000011D9
+t1294697292
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m
+c000000004D2B834C000000000000206D
+t1294697292
+s8301
+i"SBJsonWriter.h"
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/InfoPlist.strings
+c000000004D6843C4000000000000002D
+t1298678724
+s45
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib
+c000000004D6A2A5400000000000034A9
+t1298803284
+s13481
+
+N/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m
+c000000004D698D300000000000000166
+t1298763056
+s358
+i<UIKit/UIKit.h>
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent
+t1301590606
+s460
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook
+t1301590602
+s79660
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook.LinkFileList
+c000000004D94B2440000000000000679
+t1301590596
+s1657
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBookAppDelegate.o
+t1301590600
+s51648
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/Contact.o
+t1301590600
+s14380
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactDetailsViewController.o
+t1301590600
+s69524
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactMapViewController.o
+t1301590601
+s48748
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactsTableViewController.o
+t1301590601
+s60984
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1301590601
+s4780
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSString+SBJSON.o
+t1301590601
+s4700
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonBase.o
+t1301590601
+s10160
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonParser.o
+t1301590601
+s32336
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonWriter.o
+t1301590601
+s23716
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/main.o
+t1301590600
+s3124
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook
+t1301590603
+s87712
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook.LinkFileList
+c000000004D94B2440000000000000679
+t1301590596
+s1657
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBookAppDelegate.o
+t1301590601
+s51828
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/Contact.o
+t1301590601
+s14936
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactDetailsViewController.o
+t1301590601
+s70340
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactMapViewController.o
+t1301590602
+s49080
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactsTableViewController.o
+t1301590601
+s61728
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1301590602
+s4828
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSString+SBJSON.o
+t1301590602
+s4748
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonBase.o
+t1301590602
+s10448
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonParser.o
+t1301590602
+s34052
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonWriter.o
+t1301590602
+s24824
+
+N/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/main.o
+t1301590601
+s3184
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+t1301590606
+s476
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app.dSYM
+t1301590603
+s102
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook
+t1301590603
+s184112
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactDetailsViewController.nib
+t1301590604
+s2580
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactMapViewController.nib
+t1301590606
+s1152
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactTableViewCell.nib
+t1301590605
+s1848
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactsTableViewController.nib
+t1301590605
+s997
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/Info.plist
+t1301590596
+s1063
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/PkgInfo
+t1301590596
+s8
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist
+t1301590596
+s485
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision
+t1301590606
+s19316
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/InfoPlist.strings
+t1301590604
+s42
+
+N/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/MainWindow.nib
+t1301590605
+s1569
+
+N/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision
+c000000004D5ABEE20000000000004B74
+t1297792738
+s19316
+
+N/var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch.gch
+t1301590599
+s7751384
+
+N/var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch.gch
+t1301590599
+s8238808
+
+NCompanyAddressBook/CompanyAddressBook-Info.plist
+c000000004D6843C400000000000004AF
+t1298678724
+s1199
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323283396#323283396#0(0"0(0#1#0"9007637348679712#0"0#
+
+CCodeSign /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+s323283406.395216
+e323283406.924448
+r1
+xCodeSign
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+lSLF07#2@52"CodeSign build/Debug-iphoneos/CompanyAddressBook.app323283406#323283406#0(0"0(0#0#82"/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app8604345824#707"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Nicolas Verinaud (7GFV5AGVD4)" --resource-rules=/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist --entitlements /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBookAppDelegate.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.169076
+e323283400.500264
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBookAppDelegate.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@97"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m323283400#323283400#0(0"0(0#0#89"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m8604836992#2108"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBookAppDelegate.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/Contact.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.481003
+e323283400.560503
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/Contact.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m323283400#323283400#0(0"0(0#0#67"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m8605425600#2064"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/Contact.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactDetailsViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.500366
+e323283400.954189
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactDetailsViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m323283400#323283400#0(0"0(0#0#88"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m8605237888#2106"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactDetailsViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactMapViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.954284
+e323283401.081850
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactMapViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m323283400#323283401#0(0"0(0#0#84"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m8604325440#2098"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactMapViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactsTableViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.560612
+e323283401.008922
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactsTableViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m323283400#323283401#0(0"0(0#0#87"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m8604997952#2104"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/ContactsTableViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283401.009024
+e323283401.086560
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m323283401#323283401#0(0"0(0#0#75"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m8602414560#2080"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSString+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283401.081943
+e323283401.142919
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m323283401#323283401#0(0"0(0#0#75"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m8605288640#2080"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonBase.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283401.086644
+e323283401.164190
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m323283401#323283401#0(0"0(0#0#70"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m8604724288#2070"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonParser.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283401.143025
+e323283401.315738
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m323283401#323283401#0(0"0(0#0#72"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m8604366272#2074"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonWriter.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283401.164283
+e323283401.277871
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m323283401#323283401#0(0"0(0#0#72"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m8604059936#2074"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/main.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283400.167728
+e323283400.480898
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/main.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m323283400#323283400#0(0"0(0#0#64"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m8605630176#2058"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBookAppDelegate.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283401.334859
+e323283401.478960
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBookAppDelegate.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@97"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m323283401#323283401#0(0"0(0#0#89"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m8604754784#2108"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBookAppDelegate.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/Contact.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283401.479437
+e323283401.553989
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/Contact.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m323283401#323283401#0(0"0(0#0#67"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m8605200672#2064"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/Contact.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/Contact.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactDetailsViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283401.554106
+e323283401.854225
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactDetailsViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m323283401#323283401#0(0"0(0#0#88"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m8605030208#2106"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactDetailsViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactMapViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.066749
+e323283402.226230
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactMapViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m323283402#323283402#0(0"0(0#0#84"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m8604546912#2098"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactMapViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactsTableViewController.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283401.854335
+e323283402.066641
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactsTableViewController.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m323283401#323283402#0(0"0(0#0#87"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m8605268704#2104"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/ContactsTableViewController.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.226327
+e323283402.281544
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m323283402#323283402#0(0"0(0#0#75"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m8603896928#2080"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSObject+SBJSON.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSString+SBJSON.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.281644
+e323283402.336199
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m323283402#323283402#0(0"0(0#0#75"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m8602262144#2080"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/NSString+SBJSON.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonBase.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.336301
+e323283402.401467
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m323283402#323283402#0(0"0(0#0#70"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m8601730144#2070"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonParser.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.401567
+e323283402.605094
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m323283402#323283402#0(0"0(0#0#72"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m8601077952#2074"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonWriter.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283402.605200
+e323283402.710960
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@80"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m323283402#323283402#0(0"0(0#0#72"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m8604987744#2074"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/main.o /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283401.277967
+e323283401.334763
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/main.o
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m323283401#323283401#0(0"0(0#0#64"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m8601078208#2058"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/main.m -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib
+s323283403.859930
+e323283404.571810
+r1
+xCompileXIB
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@62"CompileXIB CompanyAddressBook/ContactDetailsViewController.xib323283403#323283404#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#90"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib8602328864#608"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactDetailsViewController.nib /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactDetailsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib
+s323283405.045110
+e323283406.325857
+r1
+xCompileXIB
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@58"CompileXIB CompanyAddressBook/ContactMapViewController.xib323283405#323283406#0(504"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#86"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib8608016928#600"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactMapViewController.nib /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib
+s323283405.044461
+e323283405.614694
+r1
+xCompileXIB
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@54"CompileXIB CompanyAddressBook/ContactTableViewCell.xib323283405#323283405#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#82"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib8601876480#592"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactTableViewCell.nib /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactTableViewCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib
+s323283404.590767
+e323283405.044217
+r1
+xCompileXIB
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib
+lSLF07#2@61"CompileXIB CompanyAddressBook/ContactsTableViewController.xib323283404#323283405#0(0"0(0#0#89"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib8605473856#606"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ContactsTableViewController.nib /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib
+s323283404.571910
+e323283405.044390
+r1
+xCompileXIB
+x/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@53"CompileXIB CompanyAddressBook/en.lproj/MainWindow.xib323283404#323283405#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#81"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib8603999296#590"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/MainWindow.nib /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyStringsFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/InfoPlist.strings CompanyAddressBook/en.lproj/InfoPlist.strings
+s323283403.859046
+e323283404.590670
+r1
+xCopyStringsFile
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj/InfoPlist.strings
+xCompanyAddressBook/en.lproj/InfoPlist.strings
+lSLF07#2@50"Copy CompanyAddressBook/en.lproj/InfoPlist.strings323283403#323283404#0(0"0(0#0#84"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/en.lproj/InfoPlist.strings8601894240#499"    cd /Users/nico/Desktop/CompanyAddressBook    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary CompanyAddressBook/en.lproj/InfoPlist.strings --outdir /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/en.lproj0#
+
+CCpResource build/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323283396.590127
+e323283396.761061
+r1
+xCpResource
+xbuild/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323283396#323283396#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist7810779306051726336#505"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app0#
+
+CCreateUniversalBinary /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook normal "armv6 armv7"
+s323283403.296174
+e323283403.448087
+r1
+xCreateUniversalBinary
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook
+xnormal
+xarmv6 armv7
+lSLF07#2@105"CreateUniversalBinary build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook normal "armv6 armv7"323283403#323283403#0(0"0(0#0#50"/Users/nico/Desktop/CompanyAddressBook/armv6 armv78602248160#606"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook -output /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook0#
+
+CGenerateDSYMFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app.dSYM /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook
+s323283403.448225
+e323283403.858963
+r1
+xGenerateDSYMFile
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app.dSYM
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook
+lSLF07#2@128"GenerateDSYMFile build/Debug-iphoneos/CompanyAddressBook.app.dSYM build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook323283403#323283403#0(0"0(0#0#101"/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook8601234592#395"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/CompanyAddressBook -o /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app.dSYM0#
+
+CLd /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook normal armv6
+s323283401.315834
+e323283402.645586
+r1
+xLd
+x/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook
+xnormal
+xarmv6
+lSLF07#2@154"Link /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook323283401#323283402#0(0"0(0#0#0"8603911488#1002"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -filelist /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -framework MessageUI -prebind -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv6/CompanyAddressBook0#
+
+CLd /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook normal armv7
+s323283402.711059
+e323283403.296013
+r1
+xLd
+x/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook
+xnormal
+xarmv7
+lSLF07#2@154"Link /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook323283402#323283403#0(0"0(0#0#0"8605442912#1002"    cd /Users/nico/Desktop/CompanyAddressBook    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -filelist /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -framework MessageUI -prebind -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/Objects-normal/armv7/CompanyAddressBook0#
+
+CProcessInfoPlistFile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/Info.plist CompanyAddressBook/CompanyAddressBook-Info.plist
+s323283396.665404
+e323283396.704521
+r1
+xProcessInfoPlistFile
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/Info.plist
+xCompanyAddressBook/CompanyAddressBook-Info.plist
+lSLF07#2@56"Process CompanyAddressBook/CompanyAddressBook-Info.plist323283396#323283396#0(0"0(0#0#87"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Info.plist8603977280#625"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CompanyAddressBook/CompanyAddressBook-Info.plist -genpkginfo /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/ResourceRules.plist -o /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/Info.plist0#
+
+CProcessPCH /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch.gch CompanyAddressBook/CompanyAddressBook-Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s323283396.761248
+e323283399.898712
+r1
+xProcessPCH
+x/var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch.gch
+xCompanyAddressBook/CompanyAddressBook-Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Precompile CompanyAddressBook/CompanyAddressBook-Prefix.pch323283396#323283399#0(0"0(0#0#87"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch8605397504#1945"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv6 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch -o /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-cggrlimveipmsgcmcqyxksqayypx/CompanyAddressBook-Prefix.pch.gch0#
+
+CProcessPCH /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch.gch CompanyAddressBook/CompanyAddressBook-Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323283396.762153
+e323283400.167583
+r1
+xProcessPCH
+x/var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch.gch
+xCompanyAddressBook/CompanyAddressBook-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Precompile CompanyAddressBook/CompanyAddressBook-Prefix.pch323283396#323283400#0(0"0(0#0#87"/Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch8605253536#1945"    cd /Users/nico/Desktop/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos -I/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/include -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources/armv7 -I/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c /Users/nico/Desktop/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch -o /var/folders/hB/hBxz7H4EHNimhnVxcgVvok+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dzkhdtfixfvibzdlwjiuqooemtvu/CompanyAddressBook-Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision" /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision
+s323283406.326003
+e323283406.343676
+r1
+xProcessProductPackaging
+x/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision" build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision323283406#323283406#0(0"0(0#0#107"/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision8605298560#433"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nico/Library/MobileDevice/Provisioning Profiles/D54BB0C2-439E-418A-BF61-C7524BDD24E0.mobileprovision" -o /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent
+s323283406.348217
+e323283406.395107
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent
+lSLF07#2@208"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent323283406#323283406#0(0"0(0#0#134"/Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent8604681344#465"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/nico/Desktop/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphoneos/CompanyAddressBook.build/CompanyAddressBook.xcent0#
+
+CTouch /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+s323283406.343777
+e323283406.348134
+r1
+xTouch
+x/Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app
+lSLF07#2@88"Touch /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app323283406#323283406#0(0"0(0#0#0"8604868864#275"    cd /Users/nico/Desktop/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nico/Desktop/CompanyAddressBook/build/Debug-iphoneos/CompanyAddressBook.app0#
+
