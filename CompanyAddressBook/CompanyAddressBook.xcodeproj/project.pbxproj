@@ -12,8 +12,6 @@
 		0336D1181344DE53003CBB9F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1111344DE53003CBB9F /* SBJsonBase.m */; };
 		0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1131344DE53003CBB9F /* SBJsonParser.m */; };
 		0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1151344DE53003CBB9F /* SBJsonWriter.m */; };
-		4E53AF6D134A712A0077DBCA /* GSError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E53AF6C134A712A0077DBCA /* GSError.m */; };
-		4E53AF71134A728F0077DBCA /* ResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E53AF70134A728F0077DBCA /* ResultItem.m */; };
 		A010615A131A59100015E7F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106158131A59100015E7F7 /* MainWindow.xib */; };
 		A0106163131A5E090015E7F7 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */; };
 		A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */; };
@@ -46,10 +44,6 @@
 		0336D1131344DE53003CBB9F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		0336D1141344DE53003CBB9F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		0336D1151344DE53003CBB9F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		4E53AF6B134A712A0077DBCA /* GSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSError.h; sourceTree = "<group>"; };
-		4E53AF6C134A712A0077DBCA /* GSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSError.m; sourceTree = "<group>"; };
-		4E53AF6F134A728F0077DBCA /* ResultItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultItem.h; sourceTree = "<group>"; };
-		4E53AF70134A728F0077DBCA /* ResultItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultItem.m; sourceTree = "<group>"; };
 		A0106159131A59100015E7F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
 		A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
@@ -175,10 +169,6 @@
 				A06DD3A613187B430068DEB4 /* CompanyAddressBookAppDelegate.m */,
 				A0106158131A59100015E7F7 /* MainWindow.xib */,
 				A0D8F9E8131AA4C000873DA4 /* ContactTableViewCell.xib */,
-				4E53AF6B134A712A0077DBCA /* GSError.h */,
-				4E53AF6C134A712A0077DBCA /* GSError.m */,
-				4E53AF6F134A728F0077DBCA /* ResultItem.h */,
-				4E53AF70134A728F0077DBCA /* ResultItem.m */,
 				A06DD39D13187B430068DEB4 /* Supporting Files */,
 			);
 			path = CompanyAddressBook;
@@ -244,7 +234,6 @@
 			};
 			buildConfigurationList = A06DD38C13187B430068DEB4 /* Build configuration list for PBXProject "CompanyAddressBook" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -291,8 +280,6 @@
 				0336D1181344DE53003CBB9F /* SBJsonBase.m in Sources */,
 				0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */,
 				0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */,
-				4E53AF6D134A712A0077DBCA /* GSError.m in Sources */,
-				4E53AF71134A728F0077DBCA /* ResultItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

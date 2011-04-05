@@ -14,6 +14,7 @@
 {
     NSMutableArray *contacts;
     NSMutableArray *sectionsArray;
+	NSMutableArray *dataToDisplay;
 	UILocalizedIndexedCollation *collation; // our index 
     UITableViewCell *contactTableViewCell;
     UIBarButtonItem *showAllBtn;
