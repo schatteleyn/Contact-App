@@ -1,0 +1,4 @@
+#Ignore dossier build
+CompanyAddressBook/build/
+#Ignore .DS_Store
+*.[DS_Store]
