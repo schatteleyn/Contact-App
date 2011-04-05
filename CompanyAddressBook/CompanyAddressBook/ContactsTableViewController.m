@@ -57,52 +57,23 @@
     [super viewDidLoad];
 	
     self.title =@"Contacts";
-    /*
-    //we'll create an array of contacts, let's add some contacts.
-    Contact *c1 = [[Contact alloc] initWithId:1 firstname:@"Florian" lastname:@"PETIT" email:@"129118@supinfo.com" category:@"Employee" adress:@"11, Rue de bassano, 75000, Paris, France" phonenumber:@"000000000"];
-    
-    Contact *c2 = [[Contact alloc] initWithId:2 firstname:@"Steve" lastname:@"JOBS" email:@"steve@mac.com" category:@"CEO" adress:@"1, infinite loop, Cupertino, CA" phonenumber:@"00"];
-    
-    Contact *c3 = [[Contact alloc] initWithId:3 firstname:@"Tim" lastname:@"COOK" email:@"tim@mac.com" category:@"Chief Operating Officer" adress:@"1, infinite loop, Cupertino, CA" phonenumber:@"000000000"];
-    
-    Contact *c4 = [[Contact alloc] initWithId:4 firstname:@"Scott" lastname:@"FORSTALL" email:@"scott@mac.com" category:@"Senior Vice President Iphone Software" adress:@"1, infinite loop, Cupertino, CA" phonenumber:@"000000000"];
-    
-    Contact *c5 = [[Contact alloc] initWithId:5 firstname:@"Bertrand" lastname:@"SERLET" email:@"bertrand@mac.com" category:@"Senior Vice President Software Engineering" adress:@"1, infinite loop, Cupertino, CA" phonenumber:@"000000000"];
-    
-    contacts = [[NSMutableArray alloc] initWithObjects:c1,c2,c3,c4,c5, nil];
-	
-    [c1 release];
-    [c2 release];
-    [c3 release];
-    [c4 release];
-    [c5 release];
-	*/
     
     showAllBtn = [[UIBarButtonItem alloc] initWithTitle:@"map" style:UIBarButtonSystemItemSearch target:self action:@selector(showMap:)];
     self.navigationItem.rightBarButtonItem = showAllBtn;
 	
-	//dataToDisplay = [[NSMutableArray alloc] init];
 	
-	//récupération du chemin vers le fichier contenant le JSON
-	//NSString *filePath = [[NSBundle mainBundle] pathForResource:@"JSON" ofType:@"txt"];
-	
-	//création d'un string avec le contenu du JSON
+	//création d'un string avec le contenu du JSON récupéré à partir de l'URL
 	NSString *myJSON = [NSString stringWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.labo-mobile-dev.eu/project/export.html"]] encoding:NSUTF8StringEncoding error:nil];
-	
-	//[[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];   
+	 
 	
 	//Parsage du JSON à l'aide du framework importé
 	NSDictionary *json    = [myJSON JSONValue];
 	
-	//récupération  des résultats
-	//NSDictionary *resultats    = [json objectForKey:@"contacts"];
-	
-	//récupération du tableau de Jouers
+	//récupération du tableau de contacts
 	NSArray *listeContact    =  [json objectForKey:@"contacts"];
 	
 	contacts = [[NSMutableArray alloc] init];
 	
-	NSLog(@"%@", myJSON);
 	
 	//On parcourt la liste de joueurs
 	for (NSDictionary *dic in listeContact) {
@@ -123,7 +94,6 @@
 		//ajout à la liste
 		[contacts addObject:contact];
 		
-		NSLog(@"%@", contacts);
 		//libération de la mémoire
 		[contact release];
 	}
@@ -155,7 +125,6 @@
     // Return the number of rows in the section.
     //we have multiple sections, return number of rows in a section
     return [[sectionsArray objectAtIndex:section] count];
-	//return [dataToDisplay count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -180,10 +149,6 @@
 	label = (UILabel *)[cell viewWithTag:3];
 	label.text = [c1 category];
 	
-	
-	/*Contact *contact = [contacts objectAtIndex:indexPath.row];
-	
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %d", contact.firstName, contact.lastName];*/
 	
     return cell;
 }
