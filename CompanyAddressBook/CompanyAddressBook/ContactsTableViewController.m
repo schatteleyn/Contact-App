@@ -115,6 +115,10 @@
 		
 		//renseingement du score
 		contact.lastName = [dic objectForKey:@"last_name"];
+		contact.address = [dic objectForKey:@"address"];
+		contact.category = [dic objectForKey:@"category"];
+		contact.email = [dic objectForKey:@"email"];
+		contact.phoneNumber = [dic objectForKey:@"phonen"];
 		
 		//ajout à la liste
 		[contacts addObject:contact];

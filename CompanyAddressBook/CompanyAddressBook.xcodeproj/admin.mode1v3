@@ -303,7 +303,7 @@
 							<real>256</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>632 195 1373 841 0 0 1920 1178 </string>
+						<string>347 210 1373 841 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,15 +333,15 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8485A966134B822E00482F9A</string>
+										<string>8485A96B134B83B600482F9A</string>
 										<key>history</key>
 										<array>
 											<string>8485A904134B74D600482F9A</string>
 											<string>8485A905134B74D600482F9A</string>
-											<string>8485A90F134B767400482F9A</string>
 											<string>8485A93D134B7DE500482F9A</string>
 											<string>8485A961134B810000482F9A</string>
-											<string>8485A962134B810000482F9A</string>
+											<string>8485A969134B83B600482F9A</string>
+											<string>8485A96A134B83B600482F9A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,7 +355,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1095, 580}}</string>
 								<key>RubberWindowFrame</key>
-								<string>632 195 1373 841 0 0 1920 1178 </string>
+								<string>347 210 1373 841 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -375,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 585}, {1095, 215}}</string>
 								<key>RubberWindowFrame</key>
-								<string>632 195 1373 841 0 0 1920 1178 </string>
+								<string>347 210 1373 841 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -545,7 +545,7 @@
 		<string>/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>632 195 1373 841 0 0 1920 1178 </string>
+	<string>347 210 1373 841 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
