@@ -1,0 +1,4 @@
+#Ignore dossier build
+build/
+#Ignore .DS_Store
+*.[DS_Store]
