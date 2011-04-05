@@ -125,7 +125,7 @@
 		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
 		name = "ContactsTableViewController.h: 17";
 		rLen = 0;
-		rLoc = 366;
+		rLoc = 334;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -145,7 +145,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 103";
 		rLen = 0;
-		rLoc = 3552;
+		rLoc = 3572;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3211;
@@ -155,7 +155,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 106";
 		rLen = 0;
-		rLoc = 3631;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 3108;
@@ -165,7 +165,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 115";
 		rLen = 0;
-		rLoc = 3866;
+		rLoc = 3886;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 2401;
@@ -175,7 +175,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 150";
 		rLen = 0;
-		rLoc = 4649;
+		rLoc = 4692;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 3973;
@@ -185,7 +185,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 178";
 		rLen = 0;
-		rLoc = 5807;
+		rLoc = 5716;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 4624;
@@ -195,7 +195,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 45";
 		rLen = 0;
-		rLoc = 930;
+		rLoc = 904;
 		rType = 0;
 		vrLen = 1665;
 		vrLoc = 816;
@@ -205,7 +205,7 @@
 		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
 		name = "ContactsTableViewController.h: 17";
 		rLen = 0;
-		rLoc = 366;
+		rLoc = 334;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 0;
@@ -215,7 +215,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 62";
 		rLen = 0;
-		rLoc = 1187;
+		rLoc = 1161;
 		rType = 0;
 		vrLen = 1711;
 		vrLoc = 6175;
@@ -225,17 +225,292 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 163";
 		rLen = 0;
-		rLoc = 5233;
+		rLoc = 5149;
 		rType = 0;
 		vrLen = 1487;
 		vrLoc = 4348;
+	};
+	8485A925134B7B2600482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 237";
+		rLen = 0;
+		rLoc = 7918;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 7445;
+	};
+	8485A926134B7B4B00482F9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'Contact' may not respond to '-countByEnumeratingWithState:objects:count:'";
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 238;
+		rType = 1;
+	};
+	8485A927134B7B4B00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 237";
+		rLen = 0;
+		rLoc = 7883;
+		rType = 0;
+		vrLen = 714;
+		vrLoc = 7629;
+	};
+	8485A928134B7B5B00482F9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'Contact' may not respond to '-countByEnumeratingWithState:objects:count:'";
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 238;
+		rType = 1;
+	};
+	8485A929134B7B5B00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 237";
+		rLen = 0;
+		rLoc = 7883;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 7796;
+	};
+	8485A92C134B7B9B00482F9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'Contact' may not respond to '-countByEnumeratingWithState:objects:count:'";
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 238;
+		rType = 1;
+	};
+	8485A92D134B7B9B00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 237";
+		rLen = 8;
+		rLoc = 7909;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 7281;
+	};
+	8485A930134B7BDC00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 263";
+		rLen = 0;
+		rLoc = 9027;
+		rType = 0;
+		vrLen = 1545;
+		vrLoc = 7893;
+	};
+	8485A931134B7BF200482F9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Incomplete implementation of class 'ContactsTableViewController'";
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 275;
+		rType = 1;
+	};
+	8485A932134B7BF200482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 274";
+		rLen = 0;
+		rLoc = 9341;
+		rType = 0;
+		vrLen = 391;
+		vrLoc = 9047;
+	};
+	8485A93D134B7DE500482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0EA802F131ABBAB001C7EAF /* ContactMapViewController.m */;
+		name = "ContactMapViewController.m: 71";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 700;
+	};
+	8485A93E134B7DE500482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 85";
+		rLen = 0;
+		rLoc = 2664;
+		rType = 0;
+		vrLen = 2301;
+		vrLoc = 1029;
+	};
+	8485A93F134B7DE500482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
+		name = "ContactsTableViewController.h: 17";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	8485A940134B7DE500482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
+		name = "ContactsTableViewController.h: 17";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	8485A945134B7E8D00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
+		name = "ContactsTableViewController.h: 16";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	8485A946134B7E8D00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 45";
+		rLen = 0;
+		rLoc = 904;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 525;
+	};
+	8485A947134B7E8D00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 177";
+		rLen = 0;
+		rLoc = 5586;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 5081;
+	};
+	8485A94A134B7EC800482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 160";
+		rLen = 0;
+		rLoc = 5085;
+		rType = 0;
+		vrLen = 1454;
+		vrLoc = 4320;
+	};
+	8485A94D134B7EED00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 173";
+		rLen = 0;
+		rLoc = 5550;
+		rType = 0;
+		vrLen = 1482;
+		vrLoc = 4410;
+	};
+	8485A950134B7FC400482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 124";
+		rLen = 0;
+		rLoc = 4043;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 3308;
+	};
+	8485A953134B7FF600482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 124";
+		rLen = 0;
+		rLoc = 4043;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 3308;
+	};
+	8485A956134B802300482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 119";
+		rLen = 0;
+		rLoc = 3986;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 3308;
+	};
+	8485A95D134B80C500482F9A /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Void value not ignored as it ought to be";
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 120;
+		rType = 1;
+	};
+	8485A95E134B80C500482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 119";
+		rLen = 0;
+		rLoc = 3958;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 3689;
+	};
+	8485A961134B810000482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106160131A5E070015E7F7 /* ContactsTableViewController.h */;
+		name = "ContactsTableViewController.h: 16";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	8485A962134B810000482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 119";
+		rLen = 0;
+		rLoc = 3986;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 3308;
+	};
+	8485A963134B810000482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 118";
+		rLen = 0;
+		rLoc = 3928;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 2910;
+	};
+	8485A966134B822E00482F9A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
+		name = "ContactsTableViewController.m: 103";
+		rLen = 0;
+		rLoc = 3549;
+		rType = 0;
+		vrLen = 1376;
+		vrLoc = 2661;
 	};
 	84D0EBAB134B209B008B97BC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Expected ';' before ':' token";
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		rLen = 0;
-		rLoc = 123;
+		rLoc = 126;
 		rType = 1;
 	};
 	84D0EBAC134B209B008B97BC /* PBXTextBookmark */ = {
@@ -243,7 +518,7 @@
 		fRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */;
 		name = "ContactsTableViewController.m: 86";
 		rLen = 0;
-		rLoc = 2689;
+		rLoc = 2664;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 2504;
@@ -251,15 +526,15 @@
 	A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1034, 525}}";
-			sepNavSelRange = "{366, 0}";
-			sepNavVisRange = "{0, 733}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 701}";
 		};
 	};
 	A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1419, 3692}}";
-			sepNavSelRange = "{5233, 0}";
-			sepNavVisRange = "{4348, 1487}";
+			sepNavIntBoundsRect = "{{0, 0}, {1678, 3679}}";
+			sepNavSelRange = "{3549, 0}";
+			sepNavVisRange = "{2661, 1376}";
 			sepNavWindowFrame = "{{15, 416}, {750, 558}}";
 		};
 	};
@@ -324,6 +599,34 @@
 			8485A920134B786C00482F9A /* PBXTextBookmark */ = 8485A920134B786C00482F9A /* PBXTextBookmark */;
 			8485A921134B786C00482F9A /* PBXTextBookmark */ = 8485A921134B786C00482F9A /* PBXTextBookmark */;
 			8485A922134B786C00482F9A /* PBXTextBookmark */ = 8485A922134B786C00482F9A /* PBXTextBookmark */;
+			8485A925134B7B2600482F9A /* PBXTextBookmark */ = 8485A925134B7B2600482F9A /* PBXTextBookmark */;
+			8485A926134B7B4B00482F9A /* XCBuildMessageTextBookmark */ = 8485A926134B7B4B00482F9A /* XCBuildMessageTextBookmark */;
+			8485A927134B7B4B00482F9A /* PBXTextBookmark */ = 8485A927134B7B4B00482F9A /* PBXTextBookmark */;
+			8485A928134B7B5B00482F9A /* XCBuildMessageTextBookmark */ = 8485A928134B7B5B00482F9A /* XCBuildMessageTextBookmark */;
+			8485A929134B7B5B00482F9A /* PBXTextBookmark */ = 8485A929134B7B5B00482F9A /* PBXTextBookmark */;
+			8485A92C134B7B9B00482F9A /* XCBuildMessageTextBookmark */ = 8485A92C134B7B9B00482F9A /* XCBuildMessageTextBookmark */;
+			8485A92D134B7B9B00482F9A /* PBXTextBookmark */ = 8485A92D134B7B9B00482F9A /* PBXTextBookmark */;
+			8485A930134B7BDC00482F9A /* PBXTextBookmark */ = 8485A930134B7BDC00482F9A /* PBXTextBookmark */;
+			8485A931134B7BF200482F9A /* XCBuildMessageTextBookmark */ = 8485A931134B7BF200482F9A /* XCBuildMessageTextBookmark */;
+			8485A932134B7BF200482F9A /* PBXTextBookmark */ = 8485A932134B7BF200482F9A /* PBXTextBookmark */;
+			8485A93D134B7DE500482F9A /* PBXTextBookmark */ = 8485A93D134B7DE500482F9A /* PBXTextBookmark */;
+			8485A93E134B7DE500482F9A /* PBXTextBookmark */ = 8485A93E134B7DE500482F9A /* PBXTextBookmark */;
+			8485A93F134B7DE500482F9A /* PBXTextBookmark */ = 8485A93F134B7DE500482F9A /* PBXTextBookmark */;
+			8485A940134B7DE500482F9A /* PBXTextBookmark */ = 8485A940134B7DE500482F9A /* PBXTextBookmark */;
+			8485A945134B7E8D00482F9A /* PBXTextBookmark */ = 8485A945134B7E8D00482F9A /* PBXTextBookmark */;
+			8485A946134B7E8D00482F9A /* PBXTextBookmark */ = 8485A946134B7E8D00482F9A /* PBXTextBookmark */;
+			8485A947134B7E8D00482F9A /* PBXTextBookmark */ = 8485A947134B7E8D00482F9A /* PBXTextBookmark */;
+			8485A94A134B7EC800482F9A /* PBXTextBookmark */ = 8485A94A134B7EC800482F9A /* PBXTextBookmark */;
+			8485A94D134B7EED00482F9A /* PBXTextBookmark */ = 8485A94D134B7EED00482F9A /* PBXTextBookmark */;
+			8485A950134B7FC400482F9A /* PBXTextBookmark */ = 8485A950134B7FC400482F9A /* PBXTextBookmark */;
+			8485A953134B7FF600482F9A /* PBXTextBookmark */ = 8485A953134B7FF600482F9A /* PBXTextBookmark */;
+			8485A956134B802300482F9A /* PBXTextBookmark */ = 8485A956134B802300482F9A /* PBXTextBookmark */;
+			8485A95D134B80C500482F9A /* XCBuildMessageTextBookmark */ = 8485A95D134B80C500482F9A /* XCBuildMessageTextBookmark */;
+			8485A95E134B80C500482F9A /* PBXTextBookmark */ = 8485A95E134B80C500482F9A /* PBXTextBookmark */;
+			8485A961134B810000482F9A /* PBXTextBookmark */ = 8485A961134B810000482F9A /* PBXTextBookmark */;
+			8485A962134B810000482F9A /* PBXTextBookmark */ = 8485A962134B810000482F9A /* PBXTextBookmark */;
+			8485A963134B810000482F9A /* PBXTextBookmark */ = 8485A963134B810000482F9A /* PBXTextBookmark */;
+			8485A966134B822E00482F9A /* PBXTextBookmark */ = 8485A966134B822E00482F9A /* PBXTextBookmark */;
 			84D0EBAB134B209B008B97BC = 84D0EBAB134B209B008B97BC /* PBXTextBookmark */;
 			84D0EBAC134B209B008B97BC = 84D0EBAC134B209B008B97BC /* PBXTextBookmark */;
 		};
@@ -355,7 +658,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1734, 1209}}";
 			sepNavSelRange = "{1696, 0}";
-			sepNavVisRange = "{916, 1323}";
+			sepNavVisRange = "{700, 1390}";
 		};
 	};
 	A0F1CFA013193676002A372A /* ContactDetailsViewController.m */ = {

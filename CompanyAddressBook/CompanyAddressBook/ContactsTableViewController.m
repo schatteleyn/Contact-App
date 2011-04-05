@@ -42,7 +42,6 @@
 	[sectionsArray release];
 	[contacts release];
 	[showAllBtn release];
-	[dataToDisplay release];
     [super dealloc];
 }
 
@@ -77,12 +76,12 @@
     [c3 release];
     [c4 release];
     [c5 release];
-	 
+	*/
     
     showAllBtn = [[UIBarButtonItem alloc] initWithTitle:@"map" style:UIBarButtonSystemItemSearch target:self action:@selector(showMap:)];
-    self.navigationItem.rightBarButtonItem = showAllBtn;*/
+    self.navigationItem.rightBarButtonItem = showAllBtn;
 	
-	dataToDisplay = [[NSMutableArray alloc] init];
+	//dataToDisplay = [[NSMutableArray alloc] init];
 	
 	//récupération du chemin vers le fichier contenant le JSON
 	//NSString *filePath = [[NSBundle mainBundle] pathForResource:@"JSON" ofType:@"txt"];
@@ -101,6 +100,8 @@
 	//récupération du tableau de Jouers
 	NSArray *listeContact    =  [json objectForKey:@"contacts"];
 	
+	contacts = [[NSMutableArray alloc] init];
+	
 	NSLog(@"%@", myJSON);
 	
 	//On parcourt la liste de joueurs
@@ -116,11 +117,13 @@
 		contact.lastName = [dic objectForKey:@"last_name"];
 		
 		//ajout à la liste
-		[dataToDisplay addObject:contact];
+		[contacts addObject:contact];
 		
+		NSLog(@"%@", contacts);
 		//libération de la mémoire
 		[contact release];
 	}
+	
 	
 	
     [self configureSections];
@@ -158,12 +161,11 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         [[NSBundle mainBundle] loadNibNamed:@"ContactTableViewCell" owner:self options:nil];
-		/*cell = contactTableViewCell;
-        contactTableViewCell = nil;*/
-		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		cell = contactTableViewCell;
+        contactTableViewCell = nil;
     }
     
-    /*Contact *c1 = (Contact *)[[sectionsArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    Contact *c1 = (Contact *)[[sectionsArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
 	
 	//getting labels from our cell using their tags
 	UILabel *label;
@@ -172,12 +174,12 @@
 	label = (UILabel *)[cell viewWithTag:2];
 	label.text = [c1 lastName];
 	label = (UILabel *)[cell viewWithTag:3];
-	label.text = [c1 category];*/
+	label.text = [c1 category];
 	
 	
-	Contact *contact = [dataToDisplay objectAtIndex:indexPath.row];
+	/*Contact *contact = [contacts objectAtIndex:indexPath.row];
 	
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %d", contact.firstName, contact.lastName];
+	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %d", contact.firstName, contact.lastName];*/
 	
     return cell;
 }
