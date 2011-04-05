@@ -10,8 +10,6 @@
 #import "Contact.h"
 #import "ContactDetailsViewController.h"
 #import "ContactMapViewController.h"
-#import "GSError.h"
-#import "ResultItem.h"
 #import "JSON.h"
 
 @interface ContactsTableViewController()
@@ -54,12 +52,12 @@
 
 #pragma mark - View lifecycle
 
-/*- (void)viewDidLoad
+- (void)viewDidLoad
 {
     [super viewDidLoad];
 	
     self.title =@"Contacts";
-    
+    /*
     //we'll create an array of contacts, let's add some contacts.
     Contact *c1 = [[Contact alloc] initWithId:1 firstname:@"Florian" lastname:@"PETIT" email:@"129118@supinfo.com" category:@"Employee" adress:@"11, Rue de bassano, 75000, Paris, France" phonenumber:@"000000000"];
     
@@ -78,10 +76,59 @@
     [c3 release];
     [c4 release];
     [c5 release];
-
+	*/
     
     showAllBtn = [[UIBarButtonItem alloc] initWithTitle:@"map" style:UIBarButtonSystemItemSearch target:self action:@selector(showMap:)];
     self.navigationItem.rightBarButtonItem = showAllBtn;
+	
+	//dataToDisplay = [[NSMutableArray alloc] init];
+	
+	//récupération du chemin vers le fichier contenant le JSON
+	//NSString *filePath = [[NSBundle mainBundle] pathForResource:@"JSON" ofType:@"txt"];
+	
+	//création d'un string avec le contenu du JSON
+	NSString *myJSON = [NSString stringWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.labo-mobile-dev.eu/project/export.html"]] encoding:NSUTF8StringEncoding error:nil];
+	
+	//[[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:NULL];   
+	
+	//Parsage du JSON à l'aide du framework importé
+	NSDictionary *json    = [myJSON JSONValue];
+	
+	//récupération  des résultats
+	//NSDictionary *resultats    = [json objectForKey:@"contacts"];
+	
+	//récupération du tableau de Jouers
+	NSArray *listeContact    =  [json objectForKey:@"contacts"];
+	
+	contacts = [[NSMutableArray alloc] init];
+	
+	NSLog(@"%@", myJSON);
+	
+	//On parcourt la liste de joueurs
+	for (NSDictionary *dic in listeContact) {
+		
+		//création d'un objet Joueur
+		Contact *contact = [[Contact alloc] init];
+		
+		//renseignement du nom
+		contact.firstName = [dic objectForKey:@"first_name"];
+		
+		//renseingement du score
+		contact.lastName = [dic objectForKey:@"last_name"];
+		contact.address = [dic objectForKey:@"address"];
+		contact.category = [dic objectForKey:@"category"];
+		contact.email = [dic objectForKey:@"email"];
+		contact.phoneNumber = [dic objectForKey:@"phonen"];
+		
+		//ajout à la liste
+		[contacts addObject:contact];
+		
+		NSLog(@"%@", contacts);
+		//libération de la mémoire
+		[contact release];
+	}
+	
+	
 	
     [self configureSections];
 }
@@ -89,41 +136,10 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-}*/
+}
 
 //JSON Parser
 
--(NSArray*) searchWithQuery:(NSString *)q range:(NSRange) r error:(NSError **)e {
-	NSError* error = nil;
-    
-    
-	NSString* s = [NSString stringWithFormat:@"www.labo-mobile-dev.eu/project/export.html", q, r.location + 1, r.length];
-	NSURL* url = [NSURL URLWithString:[s stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
-	NSString* json = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
-    
-	if (error && e) {
-		*e = error;
-		return nil;
-	}
-	else {
-		SBJsonParser* parser = [[SBJsonParser alloc] init];
-		id object = [parser objectWithString:json error:e];
-        
-		if ([object valueForKey:@"error"]) {
-			*e = [GSError errorWithJsonObject:[object valueForKey:@"error"]];
-			return nil;
-		}
-		else {
-			NSArray* items = [object valueForKey:@"items"];
-			NSMutableArray* returnedItems = [NSMutableArray array];
-			for (NSDictionary* item in items) {
-				[returnedItems addObject:[ResultItem itemWithJsonObject:item]];
-			}
-			return [NSArray arrayWithArray:returnedItems];
-		}
-	}
-    
-}
 
 #pragma mark - Table view data source
 
@@ -139,6 +155,7 @@
     // Return the number of rows in the section.
     //we have multiple sections, return number of rows in a section
     return [[sectionsArray objectAtIndex:section] count];
+	//return [dataToDisplay count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -162,6 +179,11 @@
 	label.text = [c1 lastName];
 	label = (UILabel *)[cell viewWithTag:3];
 	label.text = [c1 category];
+	
+	
+	/*Contact *contact = [contacts objectAtIndex:indexPath.row];
+	
+	cell.textLabel.text = [NSString stringWithFormat:@"%@ - %d", contact.firstName, contact.lastName];*/
 	
     return cell;
 }
