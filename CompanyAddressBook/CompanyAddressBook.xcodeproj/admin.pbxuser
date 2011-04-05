@@ -585,9 +585,9 @@
 	};
 	A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1419, 3380}}";
-			sepNavSelRange = "{1946, 0}";
-			sepNavVisRange = "{1056, 1403}";
+			sepNavIntBoundsRect = "{{0, 0}, {1419, 3198}}";
+			sepNavSelRange = "{2025, 0}";
+			sepNavVisRange = "{6069, 1519}";
 			sepNavWindowFrame = "{{15, 416}, {750, 558}}";
 		};
 	};
@@ -722,9 +722,9 @@
 	};
 	A0F1CFA013193676002A372A /* ContactDetailsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1034, 2119}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1699, 1898}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1122}";
+			sepNavVisRange = "{3109, 1738}";
 		};
 	};
 }

@@ -12,6 +12,7 @@
 		0336D1181344DE53003CBB9F /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1111344DE53003CBB9F /* SBJsonBase.m */; };
 		0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1131344DE53003CBB9F /* SBJsonParser.m */; };
 		0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1151344DE53003CBB9F /* SBJsonWriter.m */; };
+		847ED391134BC4B700984B17 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 847ED390134BC4B700984B17 /* libsqlite3.0.dylib */; };
 		A010615A131A59100015E7F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106158131A59100015E7F7 /* MainWindow.xib */; };
 		A0106163131A5E090015E7F7 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */; };
 		A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */; };
@@ -44,6 +45,7 @@
 		0336D1131344DE53003CBB9F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		0336D1141344DE53003CBB9F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		0336D1151344DE53003CBB9F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		847ED390134BC4B700984B17 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		A0106159131A59100015E7F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
 		A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				A06DD39913187B430068DEB4 /* Foundation.framework in Frameworks */,
 				A06DD39B13187B430068DEB4 /* CoreGraphics.framework in Frameworks */,
 				A08FA8B31319683200DF313F /* MessageUI.framework in Frameworks */,
+				847ED391134BC4B700984B17 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +156,7 @@
 				A06DD39613187B430068DEB4 /* UIKit.framework */,
 				A06DD39813187B430068DEB4 /* Foundation.framework */,
 				A06DD39A13187B430068DEB4 /* CoreGraphics.framework */,
+				847ED390134BC4B700984B17 /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
