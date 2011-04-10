@@ -7,6 +7,7 @@
 //
 
 #import "CompanyAddressBookAppDelegate.h"
+#import "ContactsTableViewController.h"
 #import "Contact.h"
 
 @implementation CompanyAddressBookAppDelegate
@@ -18,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	[self initDatabase];
+	[self checkAndCreateDatabase];
+	
+	// Query the database for all animal records and construct the "animals" array
+	[self readContactsFromDatabase];
+	
 	[self.window addSubview:self.navigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
@@ -61,6 +68,90 @@
      See also applicationDidEnterBackground:.
      */
 }
+
+
+-(id) initDatabase{
+	//On définit le nom de la base de données
+	databaseName = @"sqlDatabase.sql";
+	NSLog(@"%@", databaseName);
+	// On récupère le chemin
+	NSArray *documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDir = [documentPaths objectAtIndex:0];
+	databasePath = [documentsDir stringByAppendingPathComponent:databaseName];
+	
+	return self;
+}
+
+-(void) checkAndCreateDatabase{
+	// On vérifie si la BDD a déjà été sauvegardée dans l'iPhone de l'utilisateur
+	BOOL success;
+	
+	// Crée un objet FileManagerCreate qui va servir à vérifer le status
+	// de la base de données et de la copier si nécessaire
+	NSFileManager *fileManager = [NSFileManager defaultManager];
+	
+	// Vérifie si la BDD a déjà été créée  dans les fichiers system de l'utilisateur
+	success = [fileManager fileExistsAtPath:databasePath];
+	
+	// Si la BDD existe déjà "return" sans faire la suite
+	if(success) return;
+	
+	// Si ce n'est pas le cas alors on copie la BDD de l'application vers les fichiers système de l'utilisateur
+	
+	// On récupère le chemin vers la BDD dans l'application
+	NSString *databasePathFromApp = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:databaseName];
+	
+	// On copie la BDD de l'application vers le fichier systeme de l'application
+	[fileManager copyItemAtPath:databasePathFromApp toPath:databasePath error:nil];
+	
+	[fileManager release];
+}
+
+-(void) readContactsFromDatabase {
+	// Déclaration de l'objet database
+	sqlite3 *database;
+	
+	// Initialisation du tableau de score
+	contacts = [[NSMutableArray alloc] init];
+	
+	// On ouvre la BDD à partir des fichiers système
+	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
+		// Préparation de la requête SQL qui va permettre de récupérer les objets score de la BDD
+		//en triant les scores dans l'ordre décroissant
+		const char *sqlStatement = "select * FROM contacts";
+		
+		//création d'un objet permettant de connaître le status de l'exécution de la requête
+		sqlite3_stmt *compiledStatement;
+		
+		if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
+			// On boucle tant que l'on trouve des objets dans la BDD
+			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
+				// On lit les données stockées dans le fichier sql
+				// Dans la première colonne on trouve du texte que l'on place dans un NSString
+				NSString *Fname = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];
+				// Dans la deuxième colonne on récupère le score dans un NSInteger
+				NSInteger id = sqlite3_column_int(compiledStatement, 1);
+				NSLog(@"%@", compiledStatement);
+				// On crée un objet Score avec les pramètres récupérés dans la BDD
+				Contact *contact = [[Contact alloc] init];
+				
+				contact.firstName = Fname;
+				contact.identifier = id;
+				
+				// On ajoute le score au tableau
+				[contacts addObject:contact];
+				[contact release];
+			}
+		}
+		// On libère le compiledStamenent de la mémoire
+		sqlite3_finalize(compiledStatement);
+		
+	}
+	//On ferme la BDD
+	sqlite3_close(database);
+	
+}
+
 
 - (void)dealloc
 {

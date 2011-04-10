@@ -242,4 +242,5 @@ Section-related methods: Retrieve the section titles and section index titles fr
     [self.navigationController pushViewController:mapViewController animated:YES];
     [mapViewController release];
 }
+
 @end

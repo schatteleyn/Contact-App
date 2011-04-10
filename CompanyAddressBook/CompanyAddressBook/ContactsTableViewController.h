@@ -17,6 +17,7 @@
 	UILocalizedIndexedCollation *collation; // our index 
     UITableViewCell *contactTableViewCell;
     UIBarButtonItem *showAllBtn;
+	
 }
 
 @property (nonatomic, retain) NSMutableArray *contacts;
@@ -24,5 +25,6 @@
 @property (nonatomic, retain) UIBarButtonItem *showAllBtn;
 
 - (IBAction)showMap:(id)sender;
+
 
 @end

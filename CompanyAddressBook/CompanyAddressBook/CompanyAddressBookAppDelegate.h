@@ -12,8 +12,17 @@
 
     UIWindow *_window;
 	UINavigationController *_navigationController;
+	NSString *databaseName;
+	NSString *databasePath;
+	
+	NSMutableArray *contacts;
+
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+-(id) initDatabase;
+-(void) checkAndCreateDatabase;
+-(void) readContactsFromDatabase;
+
 @end

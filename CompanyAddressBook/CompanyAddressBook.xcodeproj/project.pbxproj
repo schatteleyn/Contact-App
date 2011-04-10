@@ -13,6 +13,7 @@
 		0336D1191344DE53003CBB9F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1131344DE53003CBB9F /* SBJsonParser.m */; };
 		0336D11A1344DE53003CBB9F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336D1151344DE53003CBB9F /* SBJsonWriter.m */; };
 		847ED391134BC4B700984B17 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 847ED390134BC4B700984B17 /* libsqlite3.0.dylib */; };
+		847ED394134BC50400984B17 /* sqlDatabase.sql in Resources */ = {isa = PBXBuildFile; fileRef = 847ED393134BC50400984B17 /* sqlDatabase.sql */; };
 		A010615A131A59100015E7F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106158131A59100015E7F7 /* MainWindow.xib */; };
 		A0106163131A5E090015E7F7 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0106161131A5E070015E7F7 /* ContactsTableViewController.m */; };
 		A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0106162131A5E080015E7F7 /* ContactsTableViewController.xib */; };
@@ -46,6 +47,7 @@
 		0336D1141344DE53003CBB9F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		0336D1151344DE53003CBB9F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		847ED390134BC4B700984B17 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		847ED393134BC50400984B17 /* sqlDatabase.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqlDatabase.sql; sourceTree = "<group>"; };
 		A0106159131A59100015E7F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		A0106160131A5E070015E7F7 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
 		A0106161131A5E070015E7F7 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			name = "Contact Details View Controller";
 			sourceTree = "<group>";
 		};
+		847ED392134BC4EE00984B17 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				847ED393134BC50400984B17 /* sqlDatabase.sql */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
 		A06DD38713187B430068DEB4 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +174,7 @@
 		A06DD39C13187B430068DEB4 /* CompanyAddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				847ED392134BC4EE00984B17 /* Ressources */,
 				0336D0D11344DB4C003CBB9F /* SBJSON */,
 				4E9277A81349BE4000786E45 /* Contact Details View Controller */,
 				4E9277A61349BE0E00786E45 /* Contact Map View Controller */,
@@ -263,6 +274,7 @@
 				A0106164131A5E090015E7F7 /* ContactsTableViewController.xib in Resources */,
 				A0D8F9E9131AA4C000873DA4 /* ContactTableViewCell.xib in Resources */,
 				A0EA8032131ABBAB001C7EAF /* ContactMapViewController.xib in Resources */,
+				847ED394134BC50400984B17 /* sqlDatabase.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
