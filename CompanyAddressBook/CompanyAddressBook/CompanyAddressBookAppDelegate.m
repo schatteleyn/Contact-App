@@ -21,10 +21,7 @@
 {
 	[self initDatabase];
 	[self checkAndCreateDatabase];
-	
-	// Query the database for all animal records and construct the "animals" array
 	[self readContactsFromDatabase];
-	
 	[self.window addSubview:self.navigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
@@ -118,7 +115,7 @@
 	if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		// Préparation de la requête SQL qui va permettre de récupérer les objets score de la BDD
 		//en triant les scores dans l'ordre décroissant
-		const char *sqlStatement = "select * FROM contacts";
+		const char *sqlStatement = "SELECT * FROM contacts";
 		
 		//création d'un objet permettant de connaître le status de l'exécution de la requête
 		sqlite3_stmt *compiledStatement;
