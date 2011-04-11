@@ -11,6 +11,7 @@
 #import "ContactDetailsViewController.h"
 #import "ContactMapViewController.h"
 #import "JSON.h"
+#import "SQLmanager.h"
 
 @interface ContactsTableViewController()
 
@@ -98,6 +99,12 @@
 		[contact release];
 	}
 	
+	
+	SQLmanager *sqlManager = [[SQLmanager alloc] initDatabase];
+	
+	NSString *addContacts = [sqlManager getContact];
+	
+	[contacts addObject:addContacts];
 	
 	
     [self configureSections];

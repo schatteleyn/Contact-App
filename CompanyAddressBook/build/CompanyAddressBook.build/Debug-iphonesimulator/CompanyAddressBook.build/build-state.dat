@@ -1,7 +1,7 @@
 TCompanyAddressBook
 v7
 r0
-t324163620.419252
+t324249689.511751
 cCheck dependencies
 cProcessInfoPlistFile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/Info.plist CompanyAddressBook/CompanyAddressBook-Info.plist
 cProcessPCH /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch.gch CompanyAddressBook/CompanyAddressBook-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
@@ -16,6 +16,7 @@ cCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBoo
 cCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SBJsonBase.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SBJsonParser.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SBJsonWriter.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLmanager.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook normal i386
 cGenerateDSYMFile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook
 cCopyStringsFile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/en.lproj/InfoPlist.strings CompanyAddressBook/en.lproj/InfoPlist.strings
@@ -111,18 +112,19 @@ i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.h
-c000000004D9B96AD000000000000028F
-t1302042285
-s655
+c000000004DA363BF00000000000002E3
+t1302553535
+s739
 i<UIKit/UIKit.h>
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m
-c000000004DA220A30000000000001670
-t1302470819
-s5744
+c000000004DA36EA60000000000001881
+t1302556326
+s6273
 i"CompanyAddressBookAppDelegate.h"
 i"ContactsTableViewController.h"
 i"Contact.h"
+i"SQLmanager.h"
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/Contact.h
 c000000004D9B5130000000000000044A
@@ -190,14 +192,15 @@ i<UIKit/UIKit.h>
 i<sqlite3.h>
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m
-c000000004D9B95690000000000001DB2
-t1302041961
-s7602
+c000000004DA36ECC0000000000001E61
+t1302556364
+s7777
 i"ContactsTableViewController.h"
 i"Contact.h"
 i"ContactDetailsViewController.h"
 i"ContactMapViewController.h"
 i"JSON.h"
+i"SQLmanager.h"
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.xib
 c000000004D9B51300000000000002489
@@ -318,6 +321,19 @@ t1302040109
 s190
 i"SQLManager.h"
 
+N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.h
+c000000004DA36B480000000000000287
+t1302555464
+s647
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m
+c000000004DA370D80000000000001F1E
+t1302556888
+s7966
+i"SQLmanager.h"
+
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/en.lproj/InfoPlist.strings
 c000000004D9B5130000000000000002D
 t1302024496
@@ -340,13 +356,13 @@ t1302033685
 s4096
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBook.LinkFileList
-c000000004D9B913D0000000000000760
-t1302040893
-s1888
+c000000004DA364190000000000000805
+t1302553625
+s2053
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBookAppDelegate.o
-t1302470820
-s49068
+t1302556327
+s43672
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/Contact.o
 t1302038054
@@ -361,8 +377,8 @@ t1302038059
 s42472
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactsTableViewController.o
-t1302042007
-s56544
+t1302556365
+s57136
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/GSError.o
 t1301997230
@@ -396,21 +412,25 @@ N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.
 t1302040495
 s1204
 
+N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLmanager.o
+t1302556889
+s17084
+
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/main.o
 t1302038053
 s3224
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app
-t1302470820
+t1302556889
 s374
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM
-t1302470820
+t1302556889
 s102
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook
-t1302470820
-s89360
+t1302556889
+s94320
 
 N/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/ContactDetailsViewController.nib
 t1302033685
@@ -459,11 +479,11 @@ s1199
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies324163619#324163619#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies324249688#324249689#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBookAppDelegate.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s324163619.801697
-e324163620.288399
+s324249126.899334
+e324249127.510800
 r1
 xCompileC
 xbuild/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBookAppDelegate.o
@@ -472,7 +492,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@112"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m324163619#324163620#0(0"0(0#0#104"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m4300885448#2424"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBookAppDelegate.o0#
+lSLF07#2@112"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m324249126#324249127#0(0"0(0#0#104"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m4300885448#2424"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBookAppDelegate.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBookAppDelegate.o0#
 
 CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/Contact.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/Contact.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s323730854.065095
@@ -514,8 +534,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@107"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m323730858#323730859#0(0"0(0#0#99"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m4300885448#2414"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactMapViewController.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactMapViewController.o0#
 
 CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactsTableViewController.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s323734807.017787
-e323734807.402262
+s324249164.469999
+e324249165.144006
 r1
 xCompileC
 xbuild/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactsTableViewController.o
@@ -524,7 +544,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF07#2@110"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m323734807#323734807#0(0"0(0#0#102"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m4300885448#2420"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactsTableViewController.o0#
+lSLF07#2@110"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m324249164#324249165#0(0"0(0#0#102"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m4300885448#2420"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/ContactsTableViewController.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/ContactsTableViewController.o0#
 
 CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/GSError.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/GSError.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s323690030.197661
@@ -630,6 +650,19 @@ xobjective-c
 xcom.apple.compilers.llvmgcc42
 lSLF07#2@93"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLManager.m323733294#323733295#0(0"0(0#0#85"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLManager.m4300885448#2386"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLManager.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLManager.o0#
 
+CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLmanager.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s324249688.886480
+e324249689.377796
+r1
+xCompileC
+xbuild/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLmanager.o
+x/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m324249688#324249689#0(0"0(0#0#85"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m4300885448#2386"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -include /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/SQLmanager.m -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/SQLmanager.o0#
+
 CCompileC build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/main.o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s323730851.960536
 e323730853.554131
@@ -702,23 +735,23 @@ xCompanyAddressBook/sqlDatabase.sql
 lSLF07#2@39"Copy CompanyAddressBook/sqlDatabase.sql323733295#323733295#0(0"0(0#0#88"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/sqlDatabase.sql4300885448#534"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/sqlDatabase.sql /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app0#
 
 CGenerateDSYMFile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook
-s324163620.358004
-e324163620.410297
+s324249689.444565
+e324249689.497058
 r1
 xGenerateDSYMFile
 x/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM
 x/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook
-lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook324163620#324163620#0(0"0(0#0#123"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook4300885448#461"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM0#
+lSLF07#2@142"GenerateDSYMFile build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook324249689#324249689#0(0"0(0#0#123"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook4300885448#461"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app.dSYM0#
 
 CLd /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook normal i386
-s324163620.289084
-e324163620.357893
+s324249689.377867
+e324249689.444483
 r1
 xLd
 x/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook
 xnormal
 xi386
-lSLF07#2@128"Link /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook324163620#324163620#0(0"0(0#0#0"4300885448#1083"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -filelist /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBook.LinkFileList -mmacosx-version-min=10.5 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -framework MessageUI -lsqlite3.0 -prebind -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook0#
+lSLF07#2@128"Link /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook324249689#324249689#0(0"0(0#0#0"4300885448#1083"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -filelist /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/Objects-normal/i386/CompanyAddressBook.LinkFileList -mmacosx-version-min=10.5 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -framework MessageUI -lsqlite3.0 -prebind -o /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/CompanyAddressBook0#
 
 CProcessInfoPlistFile /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app/Info.plist CompanyAddressBook/CompanyAddressBook-Info.plist
 s323648019.057664
@@ -743,10 +776,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@59"Precompile CompanyAddressBook/CompanyAddressBook-Prefix.pch323730836#323730851#0(0"0(0#0#102"/Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch4300885448#2240"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-generated-files.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-own-target-headers.hmap -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-all-target-headers.hmap -iquote /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/CompanyAddressBook-project-headers.hmap -F/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/include -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources/i386 -I/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/CompanyAddressBook.build/Debug-iphonesimulator/CompanyAddressBook.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/CompanyAddressBook/CompanyAddressBook-Prefix.pch -o /var/folders/gc/gcygM0llEeWR9DeLrxLo5E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CompanyAddressBook-Prefix-dglrwbwcdckqchgmvodfjvnnspvh/CompanyAddressBook-Prefix.pch.gch0#
 
 CTouch /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app
-s324163620.410731
-e324163620.419218
+s324249689.497444
+e324249689.511717
 r1
 xTouch
 x/Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app
-lSLF07#2@110"Touch /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app324163620#324163620#0(0"0(0#0#0"4300885448#319"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app0#
+lSLF07#2@110"Touch /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app324249689#324249689#0(0"0(0#0#0"4300885448#319"    cd /Users/admin/Documents/Projet-2APL/CompanyAddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/admin/Documents/Projet-2APL/CompanyAddressBook/build/Debug-iphonesimulator/CompanyAddressBook.app0#
 
