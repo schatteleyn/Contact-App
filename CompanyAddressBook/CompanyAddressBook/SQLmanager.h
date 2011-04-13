@@ -23,7 +23,7 @@
 -(void)checkAndCreateDatabaseWithOverwrite:(BOOL)overwriteDB; //Valider et creer la base
 
 -(NSMutableArray *)getContacts; //Obtenir un utilisation alleatoire
--(void)addUsernameWithName:(NSString *)userName; //Aout d'un utilisateur
+-(NSMutableArray *)addContacts; //Aout d'un utilisateur
 -(NSNumber *)getUserCount; //Retroune le nombre d'utilisateur
 
 @end

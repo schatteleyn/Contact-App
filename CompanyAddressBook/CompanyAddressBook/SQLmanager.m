@@ -167,15 +167,19 @@
 }
 
 //Ajout d'un utilisateur
--(void)addUsernameWithName:(NSString *)userName {
+-(NSMutableArray *)addContacts {
     //Declaration d'un objet SQLITE
     sqlite3 *database;
+	
+	contacts = [[NSMutableArray alloc] init];
+	
+	Contact *contact1 = [[Contact alloc] init];
 	
     // Ouverture de la base de donnees
     if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		
         //Chaine de caracteres de la requete
-        const char *sqlStatement = "INSERT INTO contacts (first_name) VALUES (?)";
+        const char *sqlStatement = "INSERT INTO contacts (id, address, last_name, first_name, category, email, phonen) VALUES (?, ?, ?, ?, ?, ?, ?)";
 		
         //Creation de l'objet statement
         sqlite3_stmt *compiledStatement;
@@ -184,7 +188,12 @@
         if(sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
 			
             //Ajout du texte dans la cellule
-            sqlite3_bind_text(compiledStatement, 1, [userName UTF8String], -1, SQLITE_TRANSIENT);
+            sqlite3_bind_text(compiledStatement, 1, [contact1.address UTF8String], -1, SQLITE_TRANSIENT);
+			sqlite3_bind_text(compiledStatement, 2, [contact1.lastName UTF8String], -1, SQLITE_TRANSIENT);
+			sqlite3_bind_text(compiledStatement, 3, [contact1.firstName UTF8String], -1, SQLITE_TRANSIENT);
+			sqlite3_bind_text(compiledStatement, 4, [contact1.category UTF8String], -1, SQLITE_TRANSIENT);
+			sqlite3_bind_text(compiledStatement, 5, [contact1.email UTF8String], -1, SQLITE_TRANSIENT);
+			sqlite3_bind_text(compiledStatement, 6, [contact1.phoneNumber UTF8String], -1, SQLITE_TRANSIENT);
 			
             //Evaluation du succes de la requete
             if(SQLITE_DONE != sqlite3_step(compiledStatement)) {
@@ -205,8 +214,13 @@
         NSAssert(0, @"Erreur d'ouverture de la base de donnees");
     }
 	
+	[contacts addObject:contact1];
+	[contact1 release];
     //Fermer la base de donnees
     sqlite3_close(database);
+	
+	return contacts;
+	
 }
 //Retrouve le nombre d'enregistrement
 -(NSNumber *)getUserCount {

@@ -12,6 +12,7 @@
 #import "ContactMapViewController.h"
 #import "JSON.h"
 #import "SQLmanager.h"
+#import <sqlite3.h>
 
 @interface ContactsTableViewController()
 
@@ -95,13 +96,21 @@
 		contact.phoneNumber = [dic objectForKey:@"phonen"];
 		
 		//ajout à la liste
+		
+		
+		SQLmanager *sqlManager = [[SQLmanager alloc] initDatabase];
+		
+		[sqlManager addContacts];
+		
 		[contacts addObject:contact];
 		
 		//libération de la mémoire
 		[contact release];
+		[sqlManager release];
 	}
 	
 	SQLmanager *sqlManager = [[SQLmanager alloc] initDatabase];
+	
 	
 	
 	
