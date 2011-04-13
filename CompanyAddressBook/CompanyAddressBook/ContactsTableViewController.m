@@ -76,6 +76,8 @@
 	contacts = [[NSMutableArray alloc] init];
 	
 	
+	
+	
 	//On parcourt la liste de joueurs
 	for (NSDictionary *dic in listeContact) {
 		
@@ -99,13 +101,17 @@
 		[contact release];
 	}
 	
-	
 	SQLmanager *sqlManager = [[SQLmanager alloc] initDatabase];
 	
-	NSString *addContacts = [sqlManager getContact];
 	
-	[contacts addObject:addContacts];
 	
+	[contacts addObjectsFromArray:[sqlManager getContacts]];
+	
+	NSLog(@"%@", contacts);
+	/*NSString *addContacts = [sqlManager getRandomUser];
+	
+	[contacts addObject:addContacts];*/
+	[sqlManager release];
 	
     [self configureSections];
 }

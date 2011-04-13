@@ -7,9 +7,17 @@
 //
 
 #import "SQLmanager.h"
+#import "Contact.h"
+#import "CompanyAddressBookAppDelegate.h"
+#import "ContactsTableViewController.h"
+#import "ContactDetailsViewController.h"
+#import "ContactMapViewController.h"
 
 
 @implementation SQLmanager
+
+@synthesize contacts;
+
 
 //Constructeur 
 
@@ -85,18 +93,18 @@
     return dictionary;
 }
 
--(NSString *)getContact {
+-(NSMutableArray *)getContacts {
     //Declaration d'un objet SQLITE
     sqlite3 *database;
-	
+	contacts = [[NSMutableArray alloc] init];
     //Declaration de notre String qui sera retourne
-    NSString *contactString = [NSString string];
+    //NSString *contactString = [NSString string];
 	
     // Ouverture de la base de donnees
     if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		
         //Chaine de caracteres de la requete
-        const char *sqlStatement = "SELECT first_name FROM contacts";
+        const char *sqlStatement = "SELECT * FROM contacts";
 		
         //Creation de l'objet statement
         sqlite3_stmt *compiledStatement;
@@ -107,16 +115,31 @@
             // Creation d'un dictionnaire des noms de colonnes
             NSDictionary *dictionary = [self indexByColumnName:compiledStatement];
 			
+			
+			
             while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
 				
-                //Assigne la valeur dans la chaine de caracteres
-                char * str = (char *)sqlite3_column_int(compiledStatement, [[dictionary objectForKey:@"identifier"] intValue]);
-                if (!str){
-                    str=" ";
-                }
+                NSString *firstName = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"first_name"] intValue])];
+				NSString *lastName = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"last_name"] intValue])];
+				NSString *category = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"category"] intValue])];
+				NSString *email = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"email"] intValue])];
+				NSString *phoneNumber = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"phonen"] intValue])];
+				NSString *address = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, [[dictionary objectForKey:@"address"] intValue])];
 				
-                //Convertion de la chaine vers un NSString pour retourner la valeur
-                contactString = [NSString stringWithUTF8String:str];
+				// Create a new animal object with the data from the database
+				Contact *contact = [[Contact alloc] init];
+				
+				contact.firstName = firstName; 
+				contact.lastName=lastName; 
+				contact.category=category;
+				contact.email=email; 
+				contact.phoneNumber=phoneNumber; 
+				contact.address=address;
+				
+				// Add the animal object to the animals Array
+				[contacts addObject:contact];
+				
+				[contact release];
 				
             }
         }
@@ -137,8 +160,10 @@
     //Fermer la base de donnees
     sqlite3_close(database);
 	
+
+	
     //Retourne la valeur
-    return contactString;
+    return contacts;
 }
 
 //Ajout d'un utilisateur
@@ -150,7 +175,7 @@
     if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		
         //Chaine de caracteres de la requete
-        const char *sqlStatement = "INSERT INTO userlist (username) VALUES (?)";
+        const char *sqlStatement = "INSERT INTO contacts (first_name) VALUES (?)";
 		
         //Creation de l'objet statement
         sqlite3_stmt *compiledStatement;
@@ -195,7 +220,7 @@
     if(sqlite3_open([databasePath UTF8String], &database) == SQLITE_OK) {
 		
         //Chaine de caracteres de la requete
-        const char *sqlStatement = "SELECT count(*) FROM userlist";
+        const char *sqlStatement = "SELECT count(*) FROM contacts";
 		
         //Creation de l'objet statement
         sqlite3_stmt *compiledStatement;

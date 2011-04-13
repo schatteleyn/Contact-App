@@ -14,13 +14,15 @@
 	
 	NSString *databaseName; //Nom du fichier de la BDD
 	NSString *databasePath; //Chemin BDD
+	NSMutableArray *contacts;
 
 }
+@property (nonatomic, retain) NSMutableArray *contacts;
 
 -(id) initDatabase; //Constructeur
 -(void)checkAndCreateDatabaseWithOverwrite:(BOOL)overwriteDB; //Valider et creer la base
 
--(NSString *)getContact; //Obtenir un utilisation alleatoire
+-(NSMutableArray *)getContacts; //Obtenir un utilisation alleatoire
 -(void)addUsernameWithName:(NSString *)userName; //Aout d'un utilisateur
 -(NSNumber *)getUserCount; //Retroune le nombre d'utilisateur
 
